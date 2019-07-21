@@ -120,7 +120,22 @@ The aim is to explain how to interact with the app
 
    The pairing code will be 1234 or 0000
    
-4. Download and Use the App
+4. Download the App
 
    [Play Store Link](https://play.google.com/store/apps/details?id=com.github.yashx.arduinobluetoothswitcheshc_05andhc_06 "Bluetooth Switches: Arduino 26 Relay Controller")
    
+5. Set Up Voice Commands
+
+   Hint: Choose commands which are easy to catch
+   1. Say: All Lights On  
+      Get: A
+   2. Say: All Lights Off   
+      Get: a
+   3. Say: All Odd Lights On  
+      Get: B
+   4. Say: All Odd Lights Off  
+      Get: b
+   5. Say: All Even Lights On  
+      Get: C
+   6. Say: All Even Lights Off   
+      Get: c
