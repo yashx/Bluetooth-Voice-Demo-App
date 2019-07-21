@@ -53,67 +53,58 @@ The aim is to explain how to interact with the app
 
    void doWork(char ch){
      switch(ch){
-       case 'A': //code for switch 1 turned on
+       case 'A': //code for all leds turned on
                  digitalWrite(LED_1,HIGH);
-                 break;
-       case 'a': //code for switch 1 turned off
-                 digitalWrite(LED_1,LOW);
-                 break;
-       case 'B': //code for switch 2 turned on
                  digitalWrite(LED_2,HIGH);
-                 break;
-       case 'b': //code for switch 2 turned off
-                 digitalWrite(LED_2,LOW);
-                 break;
-       case 'C': //code for switch 3 turned on
                  digitalWrite(LED_3,HIGH);
-                 break;
-       case 'c': //code for switch 3 turned off
-                 digitalWrite(LED_3,LOW);
-                 break;
-       case 'D': //code for switch 4 turned on
                  digitalWrite(LED_4,HIGH);
-                 break;
-       case 'd': //code for switch 4 turned off
-                 digitalWrite(LED_4,LOW);
-                 break;      
-       case 'E': //code for switch 5 turned on
                  digitalWrite(LED_5,HIGH);
-                 break;
-       case 'e': //code for switch 5 turned off
-                 digitalWrite(LED_5,LOW);
-                 break;
-       case 'F': //code for switch 6 turned on
                  digitalWrite(LED_6,HIGH);
-                 break;
-      case 'f':  //code for switch 6 turned off
-                 digitalWrite(LED_6,LOW);
-                 break;
-      case 'G':  //code for switch 7 turned on
                  digitalWrite(LED_7,HIGH);
-                 break;
-      case 'g':  //code for switch 7 turned off
-                 digitalWrite(LED_7,LOW);
-                 break;
-      case 'H':  //code for switch 8 turned on
                  digitalWrite(LED_8,HIGH);
-                 break;
-      case 'h':  //code for switch 8 turned off
-                 digitalWrite(LED_8,LOW);
-                 break;
-      case 'I':  //code for switch 9 turned on
                  digitalWrite(LED_9,HIGH);
-                 break;
-       case 'i': //code for switch 9 turned off
-                 digitalWrite(LED_9,LOW);
-                 break;
-      case 'J':  //code for switch 10 turned on
                  digitalWrite(LED_10,HIGH);
                  break;
-      case 'j':  //code for switch 10 turned off
+       case 'a': //code for all leds turned off
+                 digitalWrite(LED_1,LOW);
+                 digitalWrite(LED_2,LOW);
+                 digitalWrite(LED_3,LOW);
+                 digitalWrite(LED_4,LOW);
+                 digitalWrite(LED_5,LOW);
+                 digitalWrite(LED_6,LOW);
+                 digitalWrite(LED_7,LOW);
+                 digitalWrite(LED_8,LOW);
+                 digitalWrite(LED_9,LOW);
                  digitalWrite(LED_10,LOW);
                  break;
-      // Similarly for others
+       case 'B': //code for all odd leds turned on
+                 digitalWrite(LED_1,HIGH);
+                 digitalWrite(LED_3,HIGH);
+                 digitalWrite(LED_5,HIGH);
+                 digitalWrite(LED_7,HIGH);
+                 digitalWrite(LED_9,HIGH);
+                 break;
+       case 'b': //code for all odd leds turned off
+                 digitalWrite(LED_1,LOW);
+                 digitalWrite(LED_3,LOW);
+                 digitalWrite(LED_5,LOW);
+                 digitalWrite(LED_7,LOW);
+                 digitalWrite(LED_9,LOW);;
+                 break;
+       case 'C': //code for all even leds turned on
+                 digitalWrite(LED_2,HIGH);
+                 digitalWrite(LED_4,HIGH);
+                 digitalWrite(LED_6,HIGH);
+                 digitalWrite(LED_8,HIGH);
+                 digitalWrite(LED_10,HIGH);
+                 break;
+       case 'c': //code for all even leds turned off
+                 digitalWrite(LED_2,LOW);
+                 digitalWrite(LED_4,LOW);
+                 digitalWrite(LED_6,LOW);
+                 digitalWrite(LED_8,LOW);
+                 digitalWrite(LED_10,LOW);
+                 break;
      }
    }
    ```
